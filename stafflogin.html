@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div class="sub-header">
+<div class="staff-login">
     <nav>
         <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
         <div class="nav-links" id="navLinks">
@@ -26,16 +26,21 @@
         </div>  
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-  
-        <h1>~ Haora Mahi (Operating Hours) ~</h1>
-        <input class="set-today" type="date">
-        <h2>Wednesday - Sunday<br>6pm-Midnight</h2>
+        <h1>~ Ma te kotahitanga e whai kaha ai tātau ~</h1>
+        <h2>(In unity, we have strength)</h2>
+        
 </div>
 <div class="page-content">
-	<div class id="notice">! IMPORTANT NOTICE !<br>
-		We'll be closed on 02 February 2023 for some renovation works. Thank you for your understanding!
-	</div>
+
+    <h3>Staff Login</h3>
+    <label for="login">Username:</label>
+        <input type="text" id="login" name="login" required>
+    <br><br>
+    <label for="password">Password: </label>
+        <input type="text" id="password" name="password" required>
     <br>
+    <br>
+    <button class="button">Login</button>
     
 </div>
     <br>
